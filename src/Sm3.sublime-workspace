@@ -1,0 +1,823 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vi",
+				"viewCode"
+			],
+			[
+				"qbe",
+				"qbeField"
+			],
+			[
+				"s",
+				"sUser"
+			],
+			[
+				"view",
+				"viewIcon"
+			],
+			[
+				"fail",
+				"failFunction"
+			],
+			[
+				"fai",
+				"failFunction"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"paren",
+				"parentNode"
+			],
+			[
+				"call",
+				"callBackfunction"
+			],
+			[
+				"zo",
+				"zoomModel"
+			],
+			[
+				"z",
+				"zoomModel"
+			],
+			[
+				"zoo",
+				"zoomCode"
+			],
+			[
+				"my",
+				"myMeta"
+			],
+			[
+				"pa",
+				"parentNode"
+			],
+			[
+				"tree",
+				"treeRef"
+			],
+			[
+				"con",
+				"continue"
+			],
+			[
+				"data",
+				"dataIndex"
+			],
+			[
+				"defaut",
+				"defaults"
+			],
+			[
+				"cEn",
+				"cEnt"
+			],
+			[
+				"model",
+				"modelCType"
+			],
+			[
+				"conte",
+				"contextVar"
+			],
+			[
+				"contex",
+				"ContextVar"
+			],
+			[
+				"c",
+				"cBase"
+			],
+			[
+				"Mode",
+				"ModelAdmin"
+			],
+			[
+				"idL",
+				"idList1"
+			],
+			[
+				"idLi",
+				"idList0"
+			],
+			[
+				"det",
+				"detailList"
+			],
+			[
+				"re",
+				"requireOk\trequireOk"
+			],
+			[
+				"W",
+				"window"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/dario/PyDev3/softmach3",
+		"/home/dario/PyDev3/softmach3/media",
+		"/home/dario/PyDev3/softmach3/protoBase",
+		"/home/dario/PyDev3/softmach3/protoExt",
+		"/home/dario/PyDev3/softmach3/protoExt/views",
+		"/home/dario/PyDev3/softmach3/rai01ref",
+		"/home/dario/PyDev3/softmach3/rai01ref/models"
+	],
+	"file_history":
+	[
+		"/home/dario/Talend/TDI-V6.21/TOS_DI-linux-gtk-x86_64.ini",
+		"/home/dario/Talend/TDI-V6.21/TOS_DI-linux-gtk-x86.sh",
+		"/home/dario/.profile",
+		"/home/dario/PyDev3/softmach3/rai01ref/actions/__init__.py",
+		"/home/dario/PyDev3/softmach3/rai01ref/actions/graphProcess.py",
+		"/home/dario/PyDev3/softmach3/rai01ref/admin.py",
+		"/home/dario/Downloads/bp_p1.dot",
+		"/home/dario/PyDev3/softmach3/protoExt/models.py",
+		"/home/dario/PyDev3/softmach3/protoLib/models/protomodel.py",
+		"/home/dario/PyDev3/softmach3/rai01ref/actions/buildRaiMenu.py",
+		"/home/dario/PyDev3/softmach3/db/CustomDefinition.Daniel.json",
+		"/home/dario/PyDev3/softmach3/prototype/models.py",
+		"/home/dario/PyDev3/softmach3/protoExt/views/protoActionWiki.py",
+		"/home/dario/PyDev3/softmach3/output/dario.gm_prototype.dot",
+		"/home/dario/Dropbox/wikiDoc/wikiEscritos/ArticulosPendientesLeer/importZim.bib",
+		"/home/dario/zotero/storage/G74448Z8/.zotero-ft-cache",
+		"/home/dario/Dropbox/wikiDoc/wikiEscritos/ArticulosPendientesLeer/foley_potential_2015.txt",
+		"/home/dario/PyDev3/softmach3/rai01ref/models/mBase.py",
+		"/home/dario/PyDev3/softmach3/rai01ref/models/mRai.py",
+		"/home/dario/Dropbox/install/bin/zim2dw.sh",
+		"/home/dario/PyDev3/softmach3/rai01ref/models/__init__.py",
+		"/home/dario/Dropbox/wkTech/Certae/Carra/Diagrams.txt",
+		"/home/dario/Downloads/REA-0-1a.lyx",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/login/LoginController.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/globals/variables.js",
+		"/home/dario/PyDev3/softmach3/protoExt/views/protoLogin.py",
+		"/home/dario/PyDev3/softmach3/protoBase/settings.py",
+		"/home/dario/PyDev3/softmach3/protoBase/wsgi.py",
+		"/home/dario/PyDev3/softmach3/protoExt/urls.py",
+		"/home/dario/PyDev3/softmach3/requirements.txt",
+		"/home/dario/tmp/django-softmach3/requirements.txt",
+		"/run/user/1001/gvfs/sftp:host=132.203.98.113,user=base/var/www/html/django-softmach3/protoExt/views/protoLogin.py",
+		"/home/dario/PyDev3/softmach3/protoLib/pcds/auth.user.pcd",
+		"/home/dario/PyDev3/softmach3/protoLib/admin/__init__.py",
+		"/home/dario/PyDev3/softmach3/protoExt/admin/__init__.py",
+		"/home/dario/PyDev3/softmach3/protoLib/models/smbase.py",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/Application.js",
+		"/home/dario/Downloads/There_Will_Be_Blood_2007_720p_8bit_BluRay_x265HEVC-MZABI.torrent",
+		"/home/dario/Downloads/In_the_Mood_for_Love_2000_720p_BR_850MB_MkvCage_com_mkv.torrent",
+		"/home/dario/Downloads/In_the_Mood_for_Love_(2000)_720p_BRrip_sujaidr_(pimprg).torrent",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/toolbar/SearchToolBar.js",
+		"/home/dario/PyDev3/softmach3/protoExt/views/protoQbe.py",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/globals/ProtoPropertiesTools.js",
+		"/home/dario/PyDev3/softmach3/protoExt/views/protoActionList.py",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/ux/ParameterWin.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/smform/FormController.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/diagram/DBTypesStore.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/globals/ProtoStore.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/toolbar/MainToolBar.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/smform/ProtoZoom.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/smmasterdetail/MDActionsController.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/globals/Tools.js",
+		"/home/dario/PyDev3/softmach3/protoExt/meta/metaObjects.py",
+		"/home/dario/PyDev3/softmach3/protoExt/meta/metaProperties.py",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/ux/HelpQbe.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/ux/ProtoQBE.js",
+		"/home/dario/PyDev3/softmach3/protoExt/actions/addUser.py",
+		"/home/dario/PyDev3/softmach3/protoExt/meta/__init__.py",
+		"/home/dario/PyDev3/softmach3/protoExt/actions/__init__.py",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/smgrid/SMGridSheetController.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/smgrid/SMGridController.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/smform/ProtoForm.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/smgrid/SMGrid.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/proto/view/ProtoDesigner.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/proto/ProtoTools.js",
+		"/home/dario/PyDev3/softmach3/protoExt/views/protoGrid.py",
+		"/home/dario/PyDev3/softmach3/protoBase/test.py",
+		"/home/dario/PyDev3/softmach3/protoExt/views/protoGetPci.py",
+		"/home/dario/Downloads/model_m-test.jex",
+		"/home/dario/PyDev3/softmach3/prototype/tests/functions/test_ViewDefinition.py",
+		"/home/dario/PyDev3/softmach3/protoExt/views/protoGetPciDetailsTree.py",
+		"/home/dario/PyDev3/softmach3/prototype/actions/viewDefinition.py",
+		"/home/dario/PyDev3/softmach3-base/prototype/actions/viewDefinition.py",
+		"/home/dario/PyDev3/softmach3/protoExt/utils/utilsConvert.py",
+		"/home/dario/PyDev3/softmach3/.gitignore",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/smmasterdetail/MDLinkController.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/smmasterdetail/MDDetailsController.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/proto/view/ConfigController.js",
+		"/home/dario/Dropbox/wikiDoc/wikiEscritos/Ref/D0/donaldson_al_2016.txt",
+		"/home/dario/Dropbox/wkTech/wikiManualProto/manual-sm3/tmp/serverus.txt",
+		"/home/dario/Dropbox/wkTech/Certae/Servers/CertaePro/doServerBackup.sh",
+		"/home/dario/zotero/storage/8GTC9WEG/.zotero-ft-cache",
+		"/home/dario/Notebooks/wikiDarioG/DocumentosPersonales/Dario.txt",
+		"/home/dario/PyDev3/softmach3/rai01ref/actions/buildFieldList.py",
+		"/home/dario/PyDev3/softmach3/rai01ref/meta/documentTree.py",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/smform/ProtoZoomController.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/proto/view/ProtoFieldSelector.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/proto/model/FieldSelectorModel.js",
+		"/home/dario/PyDev3/softmach3/protoExt/utils/utilsBase.py",
+		"/home/dario/PyDev3/softmach3/protoExt/actions/setContext.py",
+		"/home/dario/PyDev3/softmach3/rai01ref/meta/__init__.py",
+		"/home/dario/PyDev3/softmach3/prototype/actions/viewTemplate.py",
+		"/home/dario/PyDev3/softmach3/protoExt/static/css/app.css",
+		"/home/dario/tmp/untitled.js",
+		"/home/dario/PyDev3/softmach3/rai01ref/views/documentTree.py",
+		"/home/dario/PyDev3/softmach3/protoExt/views/getStuff.py",
+		"/home/dario/PyDev3/softmach3/protoExt/views/protoActionEdit.py",
+		"/home/dario/PyDev3/softmach3/protoExt/views/protoField.py",
+		"/home/dario/PyDev3/softmach3/rai01ref/migrations/0001_initial.py",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/ComboBoxPrompt.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/main/MainController.js",
+		"/home/dario/Dropbox/wkTech/wikiManualProto/manual-sm3/a-todo/powerGOT.txt",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/main/MainTabController.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/proto/view/ProtoDetailSelector.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/proto/view/ProtoFieldTree.js",
+		"/home/dario/PyDev3/softmach3/datascripts/protoExt.py",
+		"/home/dario/PyDev3/softmach3/protoExt/migrations/0001_initial.py",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/proto/view/ProtoPcl.js",
+		"/home/dario/tmp/pcl.js",
+		"/home/dario/PyDev3/softmach3/protoExt/utils/xml2json.py",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/globals/DiagramTools.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/main/MenuOption.js",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/main/Main.js",
+		"/home/dario/PyDev3/softmach3/donewdb.sh",
+		"/home/dario/PyDev3/softmach3/prototype/protoRules.py",
+		"/home/dario/PyDev3/softmach3/protoExt/tests/data_protolib_userprofile_fieldtree.py",
+		"/home/dario/PyDev3/softmach3/doMigrate.sh",
+		"/home/dario/PyDev3/softmach3/errors.log",
+		"/home/dario/PyDev3/softmach3/dosyncdb.sh",
+		"/home/dario/PyDev3/softmach3/prototype/admin/__init__.py",
+		"/home/dario/Dropbox/wkTech/wikiManualProto/manual-sm3/sm_manual/apps/rai/rai_internals/diagram004.dot",
+		"/home/dario/Dropbox/wkTech/wikiManualProto/manual-sm3/sm_manual/apps/rai/rai_internals/diagram.dot",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/snippeds.js",
+		"/home/dario/PyDev3/softmach3/prototype/templates/prototype/wikientity.txt",
+		"/home/dario/Dropbox/wkTech/wikiManualProto/manual-sm3/sm_manual/libraries/protolib/wikiexport.txt",
+		"/home/dario/Dropbox/wkTech/wikiManualProto/manual-sm3/sm_manual/apps/prototypeur/prototype_internals/entity/entity_actions/exportwiki.txt",
+		"/home/dario/PyDev3/softmach3/prototype/templates/prototype/wikiproperty.txt",
+		"/home/dario/PyDev3/softmach3/protoExt/static/js/view/smmasterdetail/TabMasterDetail.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.py",
+			"*.dot",
+			"*.py",
+			"models.py",
+			"*.js, *.py",
+			"*.js, *.py, *.html",
+			"*.pc*",
+			"*.js, *.py, *.html",
+			"*.js, *.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.js, *.py",
+			"*.js",
+			"*.js, *.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.py,<open files>",
+			"*.py",
+			"*.css",
+			"*.py",
+			"*.css",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.js, *.py",
+			"*.js",
+			"*.py",
+			"*.js, *.py",
+			"*.js",
+			"*.py",
+			"*.json",
+			"*.js",
+			"*.py",
+			"*.css",
+			"*.js, *.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.js, *.py",
+			"*.js",
+			"*.py",
+			"*.js, *.py",
+			"*.css",
+			"*.py",
+			"*.js, *.py",
+			"*.js",
+			"*.js, *.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.js, *.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.py,/home/dario/PyDev3/softmach3/rai01ref",
+			"*.py",
+			"*.py,<open files>",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.py, *.js",
+			"*.js",
+			"*.py, *.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.py, *.js",
+			"*.py",
+			"*.py, *.js",
+			"*.py",
+			"*.py, *.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.py, *.js",
+			"*.py",
+			"*.py, *.js",
+			"*.py",
+			"*.js",
+			"*.py, *.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.py, *.js",
+			"*.py",
+			"*.js, *.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.py",
+			"*.js",
+			"*.css",
+			"*.js, *.py",
+			"*.js",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.htm*",
+			"*.js",
+			"*.py",
+			"*.js",
+			"/home/dario/DevExtJs6/01app/app",
+			"/home/dario/DevExtJs6/02Login,/home/dario/DevExtJs6/02Login41",
+			"/home/dario/DevExtJs6/02appLogin",
+			"/home/dario/DevExtJs6/01app",
+			"/home/dario/DevExtJs6/02appLogin",
+			"*.js,/home/dario/DevExtJs6/02appLogin/app",
+			"*.txt",
+			"*.py",
+			"*.txt"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"GraphProcess",
+			"getDiagramDefinition",
+			"graphProcess",
+			"doBus",
+			"ProtoModelBase",
+			"customDefinition",
+			"doBuildRaiMenu",
+			"doBuildRaiConfig",
+			"doRaiMenu",
+			"protoWiki",
+			"exportWiki",
+			"model",
+			"wiki",
+			"export",
+			"\nwww.learninghealthcareproject.org\n\nThe Potential of Learning Healthcare Systems ([0-9][0-9])\n",
+			"\nwww.learninghealthcareproject.org\n\nThe Potential of Learning Healthcare Systems [0-9][0-9]\n",
+			"\nwww.learninghealthcareproject.org\n\nThe Potential of Learning Healthcare Systems [0-9]\n",
+			"\n([0-9][0-9]) The Potential of Learning Healthcare Systems\n\nwww.learninghealthcareproject.org\n",
+			"\n([0-9]) The Potential of Learning Healthcare Systems\n\nwww.learninghealthcareproject.org\n",
+			"\n[0-9] The Potential of Learning Healthcare Systems\n\nwww.learninghealthcareproject.org\n",
+			"[0-9] The Potential of Learning Healthcare Systems\n\nwww.learninghealthcareproject.org\n",
+			"JsonFields:",
+			"source",
+			"domain",
+			"models",
+			"docType",
+			"  ",
+			"\t",
+			"UNAUTHORIZED",
+			"ACCEPTED",
+			"http.client",
+			"urlGetUserRights",
+			"protoGetUserRights",
+			"HttpResponse",
+			"ACCEPTED",
+			"protoGetUserRights",
+			"getuser",
+			"WSGI",
+			"whitenoise",
+			"pcl",
+			"User",
+			"doAddUsers",
+			"addus",
+			"User",
+			"CSRF",
+			"csfr",
+			"protoGetUserRights",
+			"getQSet",
+			"baseFilter",
+			"protoQbe",
+			"addQbeFilterStmt",
+			"getQbeStmt",
+			" \n",
+			"range",
+			"':'",
+			"getQbeStmt",
+			"filter",
+			"decimal",
+			"type in",
+			"type",
+			"actionParams",
+			"actions",
+			"clone",
+			"searchable",
+			"\\",
+			"requestparams",
+			"myMeta",
+			"MainToolBar",
+			"__MasterDetail",
+			"SearchToolBar",
+			"scope",
+			"sortFields",
+			"searchfields",
+			"parameters",
+			"detKeys",
+			"selectedKeys",
+			"myWin",
+			"actionDef",
+			"parameters",
+			"actionDef",
+			"ParameterWin",
+			"searchable",
+			"qbefield",
+			"cellLink",
+			"qbeField",
+			"meta",
+			"qbe",
+			"clearBtn",
+			"onClickViewQBE",
+			"protoQBE",
+			"sUserLine.split(',')",
+			"trim",
+			"split",
+			"continue",
+			"sGroups",
+			"parameters",
+			"doAddUser",
+			"actionAddUser",
+			"doAddUser",
+			"doAddUsr",
+			"Qbe",
+			"smgrid",
+			"smGrid",
+			"protoGrid",
+			"var nodeConf = _SM._MetaObjects[myObj.__ptType];",
+			"beforedr",
+			"formfi",
+			"Meta2Tree",
+			"treeData",
+			"formTree",
+			"formtree",
+			"allowDrop",
+			"allowdrop",
+			"parentId",
+			"data",
+			"model",
+			"store",
+			"try",
+			"nParent",
+			"nIndex",
+			"parentId",
+			"data",
+			"parentId",
+			"beforedrop",
+			"model",
+			"overModel.store.getById",
+			"pciStyle",
+			"trace"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\n-- \\1 \n",
+			"udps:",
+			" ",
+			"aUsers",
+			"strip",
+			"trim",
+			"sUserLine",
+			".",
+			"'__ptType': 'formField', \"name\":",
+			"viewCode",
+			"",
+			"cBase",
+			"related_name= 'ref_set', verbose_name='Parent'",
+			"False",
+			"True",
+			"doBusinessProcessDiagram",
+			"",
+			"Requirement",
+			"requirement",
+			"doSingleDocsMeta",
+			"doBuildSingleDocsMeta",
+			"docFields",
+			"doBuildRaiConfig",
+			"True",
+			"False",
+			"",
+			"True",
+			"",
+			"UpdateMeta",
+			"Requirement",
+			"Capacity",
+			"Artefact",
+			"me.myMeta",
+			"detCode",
+			"pSheetSelector",
+			"sheetSelector",
+			"formSelector",
+			"",
+			"loadLazyPanel",
+			"viewCode",
+			"loadLazyPci",
+			"myFormLayout",
+			"nProp",
+			"",
+			"doMigrate",
+			"+",
+			"",
+			"\"",
+			"",
+			"ProtoModelBase",
+			"",
+			"->",
+			"Field",
+			"",
+			"Field",
+			"}}",
+			"{{:zoneprive:diagrammes-rrq:",
+			"diagramesrrq",
+			"\n  * [[",
+			"\n===== ",
+			"\n===== class ",
+			"",
+			"rai01ref",
+			"rai01ref.artefact",
+			"entitySet",
+			"},{",
+			"prototype.",
+			"prototype,",
+			"ProtoModelRai",
+			"RaiVersion",
+			"",
+			"getVersionDependency",
+			"doCopyVersion",
+			"cttArray",
+			"getContextEntity",
+			"actionSetContext",
+			" set smVersion_id = 1 ;",
+			"set smVersion_id = 1 ;",
+			"update ",
+			"smVersion = models.ForeignKey('ProtoVersionTitle', blank=False, null=False, default = 1)",
+			"    smVersion = models.ForeignKey('ProtoVersionTitle', blank=False, null=False, default = 1)",
+			"VersionHeader",
+			"contextTo",
+			"doSetContext",
+			"description",
+			"ContextUser",
+			"UserPermissionManager",
+			"TeamPermissionManager",
+			"",
+			".[\\1] ",
+			".[\\1]",
+			"]",
+			",",
+			"",
+			"\n\\1-",
+			".[\\1]",
+			"",
+			"\n\\1  - ",
+			"",
+			"Msg_Action_Confirm",
+			"Title_Action_Confirm",
+			"detailSet",
+			"",
+			"'smOwningTeam', 'smVersion'",
+			"versioning",
+			"\"\n    (\"id\" integer",
+			"\n    (\"id\"",
+			"\n// -----------\nExt.create",
+			"\n\n(Ext.cmd.derive",
+			"username",
+			"Softmachine",
+			"rootProperty",
+			"app01",
+			"",
+			"\nFONTX",
+			"// cls: 'btn",
+			"",
+			"\n  * ",
+			"***",
+			":conferences:dp:",
+			":conferences:dp",
+			":conferences:histo-loli",
+			":conferences:",
+			":conferences:ll-lavenir",
+			":conferences:ll-gouvernance",
+			"{{",
+			"~~",
+			"\n*"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.875085139139,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Sm3.sublime-project",
+	"replace":
+	{
+		"height": 156.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 355.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
