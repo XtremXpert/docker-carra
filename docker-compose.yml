@@ -2,13 +2,11 @@ version: '2'
 services:  
 
   web:
-    image: dariogt/docker-carra
+    build: . 
     container_name: dz01
     tty: true
     stdin_open: true
-    command: bash -c 'python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000'
-    depends_on:
-      - db
+    command: bash -c 'pwd && ls /src -lisa'
     volumes:
       - /home/dario/Docker/src:/src
       - /home/dario/Docker/src/static:/static
@@ -18,25 +16,3 @@ services:
     ports:
       - "8000:8000"
 
-  db:
-    image: postgres:9.6
-    container_name: pz01
-    environment:
-      PGDATA: /var/lib/postgresql/data/pgdata
-      POSTGRES_PASSWORD: carra
-      POSTGRES_USER: carra
-    tty: true
-    stdin_open: true
-    volumes_from:
-      - db-data
-
-  db-data:
-    image: postgres:9.6
-    container_name: dd01
-    command:
-      - /bin/true
-    tty: true
-    stdin_open: true
-    volumes:
-      - /home/dario/Docker/pgsqldata:/var/lib/postgresql/data/pgdata
-    stdin_open: true
