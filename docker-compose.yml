@@ -2,7 +2,7 @@ version: '2'
 services:  
 
   web:
-    build: . 
+    image: dariogt/docker-carra
     container_name: dz01
     tty: true
     stdin_open: true
