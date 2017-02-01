@@ -6,11 +6,9 @@ services:
     container_name: dz01
     tty: true
     stdin_open: true
-    command: bash -c 'pwd && ls /src -lisa'
+    entrypoint: /src/entrypoint.sh
     volumes:
-      - /home/dario/Docker/src:/src
-      - /home/dario/Docker/src/static:/static
-      - /home/dario/Docker/db.sqlite3:/db.sqlite3
+      - /home/dario/Docker/carra/db.sqlite3:/db.sqlite3
     expose:
       - "8000"
     ports:

@@ -1,6 +1,7 @@
-## Deploy Django using Nginx and Postgresql
+## Deploy Carra Project  using Django and sqlite3  ( future  Nginx and Postgresql ) 
 
-An example project from this tutorial: http://ruddra.com/2016/08/14/docker-django-nginx-postgres/. It also contains implementation from this blog too: http://ruddra.com/2016/11/02/serve-static-files-by-nginx-from-django-using-docker/
+The project image is in :   /home/dario/Docker/carra
+
 
 To use this project, run this commands:
 
@@ -16,7 +17,4 @@ To use this project, run this commands:
 10. `make logs-nginx` to log access nginx container.
 11. `make collectstatic` to put static files in static directory.
 
-##Relevent Blogs:
-1. <a href="http://ruddra.com/2016/08/14/docker-django-nginx-postgres/">Deploy Django, Gunicorn, NGINX, Postgresql using Docker</a>
-2. <a href="http://ruddra.com/2016/11/02/serve-static-files-by-nginx-from-django-using-docker/">Serve Static Files by Nginx from Django using Docker</a>
  
