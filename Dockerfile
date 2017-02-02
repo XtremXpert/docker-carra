@@ -28,5 +28,8 @@ RUN chown -R ${APP_USER}:${APP_USER} ${APP_ROOT}
 WORKDIR ${APP_ROOT}
 USER ${APP_USER}
 
+EXPOSE 8000
+VOLUME ["/db.sqlite3"]
+
 # moved to docker-compose
-# ENTRYPOINT ["/src/entrypoint.sh"]
+ENTRYPOINT ["/src/entrypoint.sh"]

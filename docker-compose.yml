@@ -6,11 +6,7 @@ services:
     container_name: dz01
     tty: true
     stdin_open: true
-    entrypoint: /src/entrypoint.sh
     volumes:
       - /home/dario/Docker/carra/db.sqlite3:/db.sqlite3
-    expose:
-      - "8000"
     ports:
       - "8000:8000"
-
