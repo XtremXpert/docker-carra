@@ -32,30 +32,30 @@ The system architecture is a Web MVC variant, this means that we use the basic c
 ## Get Started
 SoftMachine can be installed and used in two ways:
 
- 1. Using `pip` to install a standalone Python package you can reuse in new projects
+ 1. Using `pip3` to install a standalone Python package you can reuse in new projects
  2. Deploying as a Django application
 
 ### Software requirements:
 
 * Ext JS 4.2.1
-* Python 2.7
+* Python > 3.5
 * Django 1.6.1
 * graphviz ([OPTION] For export database diagram)
 * south ([OPTION] For export database migration)
 
 For testing:
 ```
-$ pip install requests
+$ pip3 install requests
 ```
 
 ### Install using pip
 SoftMachine is best installed via PyPI. To install the latest version, run:
 ```
-pip install django-softmachine
+pip3 install django-softmachine
 ```
 or Install from github source:
 ```
-pip install git+git://github.com/certae/ProtoExt.git
+pip3 install git+git://github.com/certae/ProtoExt.git
 ```
 Edit your **settings.py** file and add `protoLib` and `prototypeur` to your `INSTALLED_APPS` section:
 ```python
@@ -92,19 +92,14 @@ Those steps are based on a Ubuntu server, but it is applicable to others Linux d
 Hands-on: start by checking Python version in a server terminal, usually Ubuntu comes with Python 2.7. The next step is Django installation, in a terminal type:
 ```script
 sudo apt-get install python-setuptools python-dev build-essential
-sudo easy_install pip
-sudo pip install Django==1.6.1
+sudo easy_install pip3
+sudo pip3 install Django==1.6.1
 ```
 
 To verify that Django can be seen by Python, type python from your shell. Then at the Python prompt, try to import Django
 ```python
 >>> import django
 >>> print django.get_version()
-```
-
-Install South by the command:
-```
-sudo pip install south
 ```
 
 If you are going to use MySQL, you must install the python driver:
