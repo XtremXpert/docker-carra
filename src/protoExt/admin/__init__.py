@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from django.contrib  import admin
-from reversion.helpers import patch_admin
-import reversion
+# from reversion.helpers import patch_admin
+# import reversion
 
 from protoExt.models import ViewDefinition, CustomDefinition
 
@@ -10,8 +10,8 @@ from protoExt.models import ViewDefinition, CustomDefinition
 admin.site.register(ViewDefinition)
 admin.site.register(CustomDefinition)
 
-patch_admin(ViewDefinition)
-patch_admin(CustomDefinition)
+# patch_admin(ViewDefinition)
+# patch_admin(CustomDefinition)
 
 
 
@@ -24,7 +24,7 @@ admin.site.add_action(doSetContext)
 from protoExt.actions import doAddUser, doAddUsers 
 from protoLib.models import UserProfile
 
-class UserProfileAdmin( reversion.VersionAdmin ):
+class UserProfileAdmin( admin.ModelAdmin ):
     actions = [ doAddUser, doAddUsers ]
 
     protoExt = {

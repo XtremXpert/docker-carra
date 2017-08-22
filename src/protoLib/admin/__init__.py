@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from django.contrib  import admin
-from reversion.helpers import patch_admin
-import reversion
+# from reversion.helpers import patch_admin
+# import reversion
 
 
 # -----------------------------------------   AddUser  
@@ -10,7 +10,7 @@ import reversion
 from django.contrib.auth.models import User, Group 
 from protoExt.admin import UserProfileAdmin
 # patch_admin(User)
-patch_admin(Group)
+# patch_admin(Group)
 
 from protoExt.actions import doAddUser, doAddUsers 
 
@@ -33,14 +33,14 @@ admin.site.register( User, UserProfileAdmin )
 
 from protoLib.models import TeamHierarchy
 admin.site.register(TeamHierarchy)
-patch_admin(TeamHierarchy)
+# patch_admin(TeamHierarchy)
 
  
 # -----------------------------------------     
 
 from protoLib.models import EntityMap
 admin.site.register(EntityMap)
-patch_admin(EntityMap)
+# patch_admin(EntityMap)
 
 
 # ----------------   de auth 

@@ -2,7 +2,7 @@ from django.contrib import admin
 
 from .models import DocAttribute, DocType, Artefact, Source, Requirement, Capacity
 from .models import Projet
-from reversion.helpers import patch_admin
+# from reversion.helpers import patch_admin
 # from .models import ArtefactCapacity, ArtefactComposition, ArtefactRequirement, ArtefactSource 
 # from .models import ProjectArtefact, ProjectCapacity, ProjectRequirement 
 

@@ -8,13 +8,16 @@ from protoLib.models import ProtoModelBase, ProtoModelExt, ProtoJSONManager
 from jsonfield2 import JSONField
 
 from .protoRules import ONDELETE_TYPES, BASE_TYPES, CRUD_TYPES, DB_ENGINE
-from taggit.managers import TaggableManager
+
 
 from protoExt.utils.utilsConvert import slugify2
 from django.conf import settings
 
-import reversion
 from protoLib.models.versions import VersionTitle
+
+# import reversion
+# 1708 On le laisse ici pour ne pas changer all models 
+from taggit.managers import TaggableManager
 
 
 PROTO_PREFIX = settings.PROTO_PREFIX
@@ -623,12 +626,12 @@ class DiagramEntity(ProtoModelExt):
         unique_together = ('diagram', 'entity', 'smOwningTeam', 'smVersion')
 
 
-reversion.register(Project)
-reversion.register(Model)
-reversion.register(Entity)
-reversion.register(Property)
-reversion.register(Relationship)
-reversion.register(PropertyEquivalence)
-reversion.register(Prototype)
-reversion.register(Diagram)
-reversion.register(DiagramEntity)
+# reversion.register(Project)
+# reversion.register(Model)
+# reversion.register(Entity)
+# reversion.register(Property)
+# reversion.register(Relationship)
+# reversion.register(PropertyEquivalence)
+# reversion.register(Prototype)
+# reversion.register(Diagram)
+# reversion.register(DiagramEntity)

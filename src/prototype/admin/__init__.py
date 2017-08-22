@@ -3,7 +3,7 @@
 # from import_export import resources
 # from import_export.admin import ImportExportActionModelAdmin,  ImportExportModelAdmin
 
-from reversion.helpers import patch_admin
+# from reversion.helpers import patch_admin
 from prototype.models import ProtoTable
 from django.contrib import admin
 
@@ -24,7 +24,7 @@ from prototype.models import ProtoVersionTitle
 from protoLib.admin.admVersion import VersionAdm
   
 admin.site.register( ProtoVersionTitle, VersionAdm  )
-patch_admin(ProtoVersionTitle)
+# patch_admin(ProtoVersionTitle)
 
 
 
@@ -38,7 +38,7 @@ class EntityAdmin( admin.ModelAdmin ):
     # resource_class = EntityResource
 
 admin.site.register(Entity, EntityAdmin )
-patch_admin(Entity)
+# patch_admin(Entity)
 
 
 # ------------------------------------------  Entity
@@ -62,11 +62,11 @@ admin.site.register(Property )
 admin.site.register(Relationship )
 admin.site.register( ProtoTable )
 
-patch_admin(Project)
-patch_admin(Model)
-patch_admin(Property)
-patch_admin(Relationship)
-patch_admin(Diagram)
+# patch_admin(Project)
+# patch_admin(Model)
+# patch_admin(Property)
+# patch_admin(Relationship)
+# patch_admin(Diagram)
 
 #admin.site.register( Prototype )
 
