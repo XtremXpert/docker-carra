@@ -110,7 +110,9 @@ def toBoolean(s):
     Conversion a boolean,  utilizada antes de cargar la Db 
     """
     if type(s).__name__  in ['str', 'unicode']:
-        return (s.lower()[0] in ("y", "t", "o", "s", "1"))
+        if len ( s.strip() ) > 0: 
+            return (s.lower()[0] in ("y", "t", "o", "s", "1"))
+        else: return False
     elif type(s).__name__ == 'bool':
         return s
     elif type(s).__name__ == 'int' and s != 0:
