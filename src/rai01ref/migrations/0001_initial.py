@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
             name='Artefact',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', auto_created=True, serialize=False, primary_key=True)),
-                ('smNaturalCode', models.CharField(editable=False, null=True, blank=True, max_length=50)),
+                ('smNaturalCode', models.CharField(editable=False, null=True, blank=True, max_length=75)),
                 ('smRegStatus', models.CharField(editable=False, null=True, blank=True, max_length=50)),
                 ('smWflowStatus', models.CharField(editable=False, null=True, blank=True, max_length=50)),
                 ('smCreatedOn', models.DateTimeField(auto_now_add=True, null=True)),
@@ -38,7 +38,7 @@ class Migration(migrations.Migration):
             name='ArtefactCapacity',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', auto_created=True, serialize=False, primary_key=True)),
-                ('smNaturalCode', models.CharField(editable=False, null=True, blank=True, max_length=50)),
+                ('smNaturalCode', models.CharField(editable=False, null=True, blank=True, max_length=75)),
                 ('smRegStatus', models.CharField(editable=False, null=True, blank=True, max_length=50)),
                 ('smWflowStatus', models.CharField(editable=False, null=True, blank=True, max_length=50)),
                 ('smCreatedOn', models.DateTimeField(auto_now_add=True, null=True)),

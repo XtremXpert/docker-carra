@@ -89,7 +89,7 @@ class DocAttribute(ProtoModelBase):
 
     """vType : validation type ( formatos predefinidos email, .... ) """
     vType = models.CharField(
-        blank=True, null=True, max_length=50, choices=BASE_TYPES, default='string')
+        blank=True, null=True, max_length=75, choices=BASE_TYPES, default='string')
 
     """prpDefault: Puede variar en cada instancia """
     prpDefault = models.CharField(blank=True, null=True, max_length=50)
