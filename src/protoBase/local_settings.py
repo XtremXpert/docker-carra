@@ -17,11 +17,17 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'rea_database',
-        'USER': 'rea_user',
-        'PASSWORD': 'rea_password',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+#        'NAME': 'rea_database',
+#        'USER': 'rea_user',
+#        'PASSWORD': 'rea_password',
+#        'HOST': '127.0.0.1',
+#        'PORT': '5432',
+        'NAME': os.environ['DB_NAME'],
+        'USER': os.environ['DB_USER'],
+        'PASSWORD': os.environ['DB_PASS'],
+        'HOST': os.environ['DB_SERVICE'],
+        'PORT': os.environ['DB_PORT']
+    
     }
 }
 
@@ -37,10 +43,12 @@ DATABASES = {
 #     }
 # }
 
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = os.environ['SECRET_KEY']
 
-DEBUG = True
-
-
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True if os.getenv('DEBUG') == 'true' else False
+ALLOWED_HOSTS = ['*']
 
 # add email settings
 HOST_DOMAIN = '127.0.0.1:8000'
