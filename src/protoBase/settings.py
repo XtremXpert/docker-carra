@@ -18,9 +18,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '!e2mfht*_mo5gfjbc$jm=rtke4ku)bq$+3x7dn346=ed@diba&'
+# MOVE TO LOCAL SETING Benoit
+#SECRET_KEY = '!e2mfht*_mo5gfjbc$jm=rtke4ku)bq$+3x7dn346=ed@diba&'
 
-ALLOWED_HOSTS = ['*']
+# MOVE TO LOCAL SETING Benoit
+##ALLOWED_HOSTS = ['*']
 
 LOGIN_REDIRECT_URL = '/'
 
