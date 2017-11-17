@@ -6,3 +6,5 @@
 .settings
 src/*.json
 src/secret*
+.pydevproject
+.project
