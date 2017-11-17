@@ -3,3 +3,6 @@
 */*/*.pyc
 */migrations/*
 /__pycache__
+.settings
+src/*.json
+src/secret*

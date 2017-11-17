@@ -1,50 +1,27 @@
 import os
+from pathlib import Path
+import random
+
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-# Database
-# https://docs.djangoproject.com/en/1.8/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db', 'db.sqlite3'),
-#     }
-# }
-
-# https://docs.djangoproject.com/en/1.8/ref/settings/#engine
-
-# ========================= postgresql
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#        'NAME': 'rea_database',
-#        'USER': 'rea_user',
-#        'PASSWORD': 'rea_password',
-#        'HOST': '127.0.0.1',
-#        'PORT': '5432',
         'NAME': os.environ['DB_NAME'],
         'USER': os.environ['DB_USER'],
         'PASSWORD': os.environ['DB_PASS'],
         'HOST': os.environ['DB_HOST'],
-        'PORT': os.environ['DB_PORT']
-    
+        'PORT': os.environ['DB_PORT']    
     }
 }
 
-# ========================= mysql
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'mydatabase',
-#         'USER': 'mydatabaseuser',
-#         'PASSWORD': 'mypassword',
-#         'HOST': '127.0.0.1',
-#         'PORT': '5432',
-#     }
-# }
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_FILE = BASE_DIR + "/secret_key.txt"
+ 
+print ("Looking for secret key in :" + SECRET_FILE)
+my_file = Path(SECRET_FILE)
+secret = open(SECRET_FILE, 'r')
+SECRET_KEY = secret.read()
+secret.close()
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True if os.getenv('DEBUG') == 'true' else False
