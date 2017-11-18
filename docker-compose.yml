@@ -2,12 +2,14 @@ version: '2'
 services:  
 
   rea:
+    depends_on:
+    - db
     image: xtremxpert/docker-carra
     container_name: rea
     tty: true
     stdin_open: true
     environment:
-    - DB_HOST=192.168.234.119
+    - DB_HOST=db
     - DB_NAME=rea_database
     - DB_PORT=5432
     - DB_USER=rea_user
@@ -15,3 +17,7 @@ services:
     - DEBUG=true
     ports:
       - "10000:8000"
+  
+  db:
+    image: postgres:9.4
+    container_name: rea-db
