@@ -31,6 +31,7 @@ urlpatterns = [
 
     url(r'^protoLib/', include('protoExt.urls')),
 
+    ## BENOIT vérifie pour production
 #   Use for production instalation and for load json configuration files
 #     url(r'static/(?P<path>.*)$', 'django.views.static.serve',{'document_root': PPATH + '/static'}),
 #     url(r'resources/(?P<path>.*)$', 'django.views.static.serve',{'document_root': PPATH + '/static'}),
