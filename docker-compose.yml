@@ -9,6 +9,7 @@ services:
     tty: true
     stdin_open: true
     environment:
+    - ADMIN_PASS=nimda
     - DB_HOST=db
     - DB_NAME=rea_database
     - DB_PORT=5432

@@ -1,0 +1,15 @@
+digraph Sm {fontname="Helvetica";fontsize = 8;rankdir = BT;node [shape=record,width=0,height=0,concentrate=true];
+
+subgraph cluster_GPiafs {style=dotted;label="g-piafs";
+Famille [label = "{Famille|* nom_code_famille \l+ groupe_p \l}"]
+
+DockerFile [label = "{DockerFile|}"]
+
+Groupe [label = "{Groupe|* nom_groupe \l}"]
+
+Piwigo [label = "{Piwigo|* version \l}"]
+
+InstanceFamille [label = "{InstanceFamille|}"]
+}
+Famille -> Groupe [dir=both,arrowhead=diamond,arrowtail=none]
+}

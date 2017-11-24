@@ -1,9 +1,9 @@
-FROM python:3.5
-ENV PYTHONUNBUFFERED 1
+FROM python:3.5 
 
+ENV PYTHONUNBUFFERED 1
 ENV APP_USER='carra' \
+	ADMIN_PASS='nimda' \
 	APP_ROOT='/src' \
-	DB_NAME='carra_database' \
 	DB_USER='carra_user' \
 	DB_PASS='carra_pass' \
 	DB_PORT=5432 \
@@ -16,22 +16,22 @@ RUN apt-get update \
         postgresql-client \
     && rm -rf /var/lib/apt/lists/* \
 
-#--  User and APP_ROOT creation 
+#-- User and APP_ROOT creation
 	&& groupadd -r ${APP_USER} \
-	&& useradd -r -m -d ${APP_ROOT} -s /usr/sbin/nologin -g ${APP_USER} ${APP_USER} \  
+	&& useradd -r -m -d ${APP_ROOT} -s /usr/sbin/nologin -g ${APP_USER} ${APP_USER} \
 
-#---  app env 
+#--- app env
 	&& pip install -r /src/requirements.txt \
 	&& pip install -r /src/requirements-all.txt \
 
-#--- Add su-exec to switch to user at run time only	
+#--- Add su-exec to switch to user at run time only
 	&& cd /tmp \
 	&& git clone https://github.com/ncopa/su-exec \
 	&& cd su-exec \
 	&& make \
-	&& mv su-exec /usr/bin/  \
+	&& mv su-exec /usr/bin/ \
 
-#-- User = $APP_USER  
+#-- User = $APP_USER
 	&& chown -R ${APP_USER}:${APP_USER} ${APP_ROOT}
 	
 WORKDIR ${APP_ROOT}

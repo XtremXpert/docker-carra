@@ -1,0 +1,8 @@
+digraph Sm {fontname="Helvetica";fontsize = 8;rankdir = BT;node [shape=record,width=0,height=0,concentrate=true];
+
+subgraph cluster_A {style=dotted;label="a";
+A1 [label = "{A1|a11 \l}"]
+
+A2 [label = "{A2|}"]
+}
+}
