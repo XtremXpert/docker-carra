@@ -1,1 +1,0 @@
-# http://stackoverflow.com/questions/18222299/how-to-debug-django-templates-using-pydev
